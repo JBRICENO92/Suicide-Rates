@@ -36,6 +36,6 @@ You can get more information regarding this command line:
 > ```ramp-test --help```
 
 
-<p align="left">
+<p align="center">
   <img src="https://grandes-ecoles.studyrama.com/sites/default/files/styles/content/public/institut-polytechnique-de-paris.jpeg?itok=_Puxulb6" width="300" title="suicide-awareness">
 </p>
