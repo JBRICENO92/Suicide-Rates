@@ -1,5 +1,10 @@
 # Suicide-Rates
-**Authors : Vanessa CHAHWAN, Martin BRICENO, Marko AVILA, Mohamed FARHAT, Babacar SOW**
+**Authors :**
+* Vanessa CHAHWAN, 
+* Martin BRICENO, 
+* Marko AVILA, 
+* Mohamed FARHAT, 
+* Babacar SOW
 <p align="center">
   <img src="https://www.georgetownbehavioral.com/sites/default/files/georgetown-suicide-awareness.jpg" width="400" title="suicide-awareness">
 </p>
