@@ -12,13 +12,13 @@ def get_estimator():
   K_imp = KNNImputer(missing_values=np.nan, n_neighbors=5, weights="uniform")
   reg = RandomForestRegressor(n_estimators=10, max_depth=50, max_features=8)
   cols = ['P_MHD', 'DAUD', 'PDD', 'PAD', 'PADHD', 'DMSUD', 'PBD',
-       'Current health expenditure (% of GDP)',
-       'Current health expenditure per capita (current US$)',
-       'Out-of-pocket expenditure (% of current health expenditure)',
-       'Unemployment, total (% of total labor force) (modeled ILO estimate)',
-       'School enrollment, primary (% gross)',
-       'School enrollment, secondary (% gross)',
-       'School enrollment, tertiary (% gross)', 'ghs',
+       'Current health expenditure',
+       'Current health expenditure per capita',
+       'Out-of-pocket expenditure',
+       'Unemployment',
+       'School enrollment primary',
+       'School enrollment secondary',
+       'School enrollment tertiary', 'ghs',
         'media integrity', 'military expenditure']
 
   prep = ColumnTransformer(transformers=[
