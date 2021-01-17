@@ -23,7 +23,7 @@ The data we present here include information related to the causes and annual su
 The main purprose of this project is to predict the number of people who commit suicide according to some indicators in a nation. More precisely, we predict the number of suicides as a rate. Hence, we are aiming to construct , within an open debate, estimators that may help to predict suicide casualties, and that may be used for finding informative variables or causal inference. However, the latter concept is not exploited/discussed in this project and may be considered as an open question.
 
 # Getting started
-## Install
+## Install the requirements
 
 To run a submission and the notebook you will need the dependencies listed in requirements.txt. You can install the dependencies with the following command-line:
 
