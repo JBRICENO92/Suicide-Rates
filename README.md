@@ -1,4 +1,4 @@
-# Suicide-Rates
+# Suicide Rates
 **Authors :**
 * Vanessa CHAHWAN 
 * Martin BRICENO 
