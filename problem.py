@@ -17,22 +17,22 @@ Predictions = rw.prediction_types.make_regression()
 workflow = rw.workflows.Estimator()
 
 
-class NormalizedRMSE(BaseScoreType):
+class MSE(BaseScoreType):
     is_lower_the_better = True
     minimum = 0.0
     maximum = float('inf')
 
-    def __init__(self, name='rmse', precision=5):
+    def __init__(self, name='mse', precision=5):
         self.name = name
         self.precision = precision
 
     def __call__(self, y_true, y_pred):
-        rmse = np.sqrt(mean_squared_error(y_true, y_pred))
-        return rmse / np.std(y_true)
+        mse = mean_squared_error(y_true, y_pred)
+        return mse
 
 
 score_types = [
-    NormalizedRMSE(name='normalized rmse', precision=5),
+    MSE(name='mse', precision=5),
 ]
 
 

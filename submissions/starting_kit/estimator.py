@@ -9,8 +9,8 @@ from sklearn.ensemble import RandomForestRegressor
 
 
 def get_estimator():
-  K_imp = KNNImputer(missing_values=np.nan, n_neighbors=5, weights="uniform")
-  reg = RandomForestRegressor(n_estimators=10, max_depth=50, max_features=8)
+  K_imp = KNNImputer(missing_values=np.nan, n_neighbors=3, weights="distance")
+  reg = RandomForestRegressor(n_estimators=10, max_depth=8)
   cols = ['P_MHD', 'DAUD', 'PDD', 'PAD', 'PADHD', 'DMSUD', 'PBD',
        'Current health expenditure',
        'Current health expenditure per capita',
